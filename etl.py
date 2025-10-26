@@ -4,8 +4,8 @@ import time
 from sqlalchemy import create_engine
 
 DB_URL = 'sqlite:///movies_data.db' 
-OMDB_API_KEY = '2e81a6ee' 
-MOVIE_LIMIT = 100
+OMDB_API_KEY = 'b4dcffee'
+MOVIE_LIMIT = 300 
 
 def fetch_omdb_data(title, year):
     base_url = "http://www.omdbapi.com/"
